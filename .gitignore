@@ -1,0 +1,32 @@
+# Source documents and sensitive financial records stay off git.
+# Extract the facts you need into markdown instead of committing originals.
+
+orgs/**/*.pdf
+orgs/**/*.png
+orgs/**/*.jpg
+orgs/**/*.jpeg
+orgs/**/*.heic
+orgs/**/*.xlsx
+orgs/**/*.xls
+orgs/**/*.docx
+orgs/**/*.pptx
+orgs/**/*.zip
+
+# Anything a treasurer might stage locally but must never be committed
+**/receipts/
+**/statements/
+**/*secret*
+**/*credential*
+**/.env
+**/.env.*
+
+# Cached Trello board JSON and downloaded attachments (re-fetchable; see tools/su_board.py)
+tools/.cache/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp

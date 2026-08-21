@@ -1,0 +1,11 @@
+date,account,budget_name,line_item,payee,description,amount,status,method,filed_via,notes
+# account: operating | fundraising | gift
+# status: committed | submitted | reimbursed | paid | posted | cancelled
+# method: credit-card | reimbursement | supplier-payment | deposit
+# filed_via: FTF | workday | n/a
+# amount: positive = money out, negative = money in (deposits, revenue)
+#
+# Append only. Correct a mistake with a new offsetting row plus a note - never edit history.
+# Log a purchase as 'committed' the moment it is promised to a vendor, not when money moves.
+# This file is the real picture: unreconciled card purchases and unapproved reimbursements
+# do NOT appear on the SU Daily Report, so the report overstates what you have available.

@@ -27,16 +27,26 @@ Read before answering: `reference/restrictions.md`, `reference/financial-policie
 
 **3. Within cap?** Caps are **hard cutoffs** — over-cap lines are denied, not trimmed. Check the specific
 cap and **show the arithmetic**:
-- Socials: ≤$5,000 total, ≤$30/person, food ≤$20/person, one per FY, ≥60% members, single location, venue
-  tier by attendance (<140 attendees = **$0** venue funding).
+> These are a **convenience copy of FY27 policy** (verified 2026-09-04). `reference/financial-policies.md`
+> is canonical — read it at run time and prefer its numbers. Caps reset annually and a wrong cap costs money.
+
+- Socials: ≤**$7,000** total, ≤**$40**/person, one per FY, ≥60% members, single location, venue
+  tier by attendance (<140 attendees = **$0** venue funding, and the group may use an on-campus space).
+  - **Food ≤$20/person appears only in the FY27 BAM**, not in FY27 policies — flag it as unresolved rather
+    than enforcing it.
   - **If the group is cultural, diversity & inclusion, or an affinity group**, group-wide socials and
     formals **may count as mission-related and be exempt from the social cap**. Raise this — don't silently
     apply the social cap to a group that can argue out of it.
-- Travel: $682/active travelling member; per-item caps that **depend on 4-week lead time**; no driving 500+
-  miles; 500+ mile eligibility depends on fall travel.
-- Honoraria: ≤$25,000/yr, max one speaker >$10,000, and **>$10,000 requires a ≥5-day interest survey**.
-- Retreats ≤$100/person (travel cap still stacks). Conferences: ≤4 attendees if travel, $3,000 annual travel
-  spend cap.
+- Travel: **$712**/active travelling member; per-item caps that **depend on 4-week lead time** (the hotel cap
+  doubles, $150 → $300); no driving 500+ miles. The FY26 fall/spring rule on 500+ mile eligibility is **gone
+  from FY27** — don't apply it.
+- Honoraria: ≤**$10,000**/group/yr as allocated by Treasury. Above $10,000, route to the **Social Programming
+  Board** about the **Supplementary Speaker Fund** before appealing. The FY26 one-speaker limit and the
+  ≥5-day interest survey are **no longer in policy** — don't require them.
+- Retreats ≤$100/person; if it's a travel event the travel cap also applies. Conferences: **$3,500** annual
+  cap, **no attendee limit**.
+- Attendance tracking is **mandatory** for allocations >$10,000, speaker events >$1,000, and all travel
+  except local off-campus. Acceptable: SA Tools or reported overall ticket sales. Flag it as a to-do.
 - Uniforms: only if required to participate **and** useful life >1 year.
 
 **4. Sequencing — the failure mode that voids everything**

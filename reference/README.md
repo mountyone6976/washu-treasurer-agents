@@ -11,11 +11,14 @@ Compiled from official WashU Student Union materials:
 - **Financial Transaction Form (FTF) Flow Chart** (official field map)
 - **Business Operations Spending Training** video (SU Business Operations)
 
-> ⚠️ **Fiscal-year caveat.** The policy caps in [financial-policies.md](financial-policies.md) are the
-> **FY26** policies. Per the FY27 VP of Finance (Cora Johnson), FY27 policies were still being written as
-> of the BEARings export and are released once approved by Treasury **in the second week of the fall
-> semester**. Treat the numbers here as strong guidance, not gospel, until FY27 policies drop — then
-> update this folder. When it matters, confirm with finance@su.wustl.edu.
+> ✅ **FY27 policies are live** (verified against the board **2026-09-04**).
+> [financial-policies.md](financial-policies.md) now carries the FY27 caps, not FY26.
+>
+> ⚠️ **But two FY27 sources disagree.** The **Financial Policies** card (Treasury-approved, governs
+> **appeals this year**) and the **FY27 BAM** (written spring 2026, governs what the **annual budget round**
+> was allocated against) give different numbers for the travel cap, flights, gas, conferences, and socials.
+> Both are live. Every affected file carries a conflict callout. Confirm which applies before relying on a
+> figure: **finance@su.wustl.edu** for policy/appeals, **budget@su.wustl.edu** for the annual budget.
 
 ## Files
 
@@ -30,7 +33,7 @@ Compiled from official WashU Student Union materials:
 | [funding-sources.md](funding-sources.md) | Budget allocation, flat funding, appeals — where money comes from |
 | [annual-budget.md](annual-budget.md) | The spring annual budgeting cycle (BAM, BAT, WUGO submission) |
 | [appeals.md](appeals.md) | Rolling appeals: WUGO submission, the $1K split, 3/4-week deadlines, turnaround |
-| [financial-policies.md](financial-policies.md) | FY26 caps: socials, honoraria, travel, retreats, conferences, revenue, etc. |
+| [financial-policies.md](financial-policies.md) | FY27 caps: socials, honoraria, travel, retreats, conferences, revenue, etc. |
 | [restrictions.md](restrictions.md) | Funding principles and what SU will not pay for |
 | [spending-methods.md](spending-methods.md) | Credit card, Workday reimbursement, supplier payment |
 | [travel.md](travel.md) | Travel caps, rental cars, canceled flights, conferences, retreats |

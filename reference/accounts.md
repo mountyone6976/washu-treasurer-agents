@@ -8,7 +8,22 @@ Financial Transaction Form**, so know the answer before you file.
 | Funded by | SU: budget allocation, flat funding, appeals | Your sales, ticket revenue, sponsorships | Donations via University Advancement |
 | Deposited | **Automatically** when awarded — no action needed | You deposit what you collect | Routed by Advancement |
 | Rollover | ❌ **Resets to $0 at fiscal year end** | ✅ Carries over | ✅ Carries over |
+| Minimum balance | **Never below $0** | **Never below $0** | **Never below $0** |
 | Spending rules | Full SU restrictions and caps apply | SU restrictions on accounts still apply | SU restrictions on accounts still apply |
+
+**These are the only three accounts.** Student groups may use **only** the Operating, Fundraising, and Gift
+accounts within Workday. No outside bank accounts, personal checking accounts, or Venmo — all financial
+activity must stay in the three official accounts. Misuse of funds, fraudulent activity, or intentional
+mismanagement is referred immediately to **Campus Life and University Administration**.
+
+> 🟢 **No account may carry a negative balance.** The board states this separately for **all three**
+> accounts — Operating, Fundraising, and Gift each have to stay at or above **$0**. Combined with
+> "approval before spending," it means you cannot front a purchase against expected funds.
+
+> ⚠️ **Falling out of compliance freezes the plumbing.** During a compliance pause SU suspends **credit
+> card usage, reimbursement processing, supplier payments, deposit processing, and reallocations** until
+> the issue is resolved. See [restrictions.md](restrictions.md) and
+> [treasurer-role.md](treasurer-role.md).
 
 ## Operating account — the SU money
 
@@ -27,12 +42,10 @@ anything to receive them.
 **End-of-year reset:** operating funds are use-it-or-lose-it. Anything left at fiscal year end goes to
 zero — it does not roll over.
 
-> 🟢 **The Operating account may not carry a negative balance.** It cannot go below $0. Combined with
-> "approval before spending," this means you cannot front a purchase against expected funds.
-
-**Only these three accounts.** Student groups may use **only** the Operating, Fundraising, and Gift accounts
-within Workday. No outside bank accounts, personal checking accounts, or Venmo — all financial activity must
-stay in the three official accounts.
+> ⏱️ **Money is also swept mid-year.** Unused funds from **completed events** are automatically returned to
+> SU's general funding pool **twice a year — at the end of the Fall semester and at the end of the Spring
+> semester.** You don't get to hold an event allocation's leftovers until June. If an event came in under
+> budget and you want to redirect the remainder, ask about a reallocation *before* the semester closes.
 
 **But "use it or lose it" is not permission to waste it.** Funds must be used for their originally
 intended purpose in support of the group's mission. Don't dump leftover money into random last-minute
@@ -41,16 +54,32 @@ meaningful, approved activity before the year closes.
 
 ## Fundraising account
 
-Carries over year to year by design, so you can build toward long-term goals. Two ways to fill it:
-product/event sales and sponsorships — see [fundraising-and-gifts.md](fundraising-and-gifts.md).
+Holds money your group **raised** — no university-allocated funds land here. Carries over year to year by
+design, so you can build toward long-term goals. Two ways to fill it: **product/event sales** and
+**sponsorships** — see [fundraising-and-gifts.md](fundraising-and-gifts.md).
+
+> ⚠️ **Sponsorships are gated now.** Groups seeking external sponsorships, donations, or in-kind support
+> must contact **Scott Williams in Campus Life** and complete a **Sponsorship Proposal Form** *before*
+> pursuing or accepting support. The board describes approvals as **limited and rare** and expects you to
+> exhaust SU funding and internal fundraising first.
 
 Also receives your **20% share of revenue** from SU-funded events (the other 80% returns to SU), plus any
-overage where SU's 80% would exceed its principal allocation.
+overage where SU's 80% would exceed its principal allocation. **A fundraiser hosted out of your own
+Fundraising or Gift funds is different — you keep 100% of that revenue.**
 
 ## Gift account
 
 For genuine donations — money given with **no tangible benefit expected in return**. That's the line
 between a gift and a sponsorship. Carries over between fiscal years, so it can accumulate as savings.
+
+**Donations route through University Advancement**, not through your own collection, so that donors get
+their tax credit. Donors giving online should check **"I prefer to enter my own designation (specify
+below)"** and type your **exact student group name** into the field, or the money won't reach you. Phone
+and mail options and addresses are in [fundraising-and-gifts.md](fundraising-and-gifts.md).
+
+> ⏱️ **Expect a lag.** Charitable gifts go through verification with University Advancement and the central
+> Gift Department, so funds typically show up in your Gift account **during the month *after* the donation
+> is received.** Don't plan spending against a gift that hasn't posted.
 
 ## Getting money in — approved methods only
 
@@ -97,8 +126,8 @@ St. Louis, MO 63130
 
 1. Submit the FTF and **attach the Cashnet Application** (on the BEARings board).
 2. Your Business Coordinator reviews and approves.
-3. The team works with Accounting to set up your link; **Accounting contacts you directly** to finalize
-   details and launch your custom payment link.
+3. The team works with Accounting to set up your link; **Accounting (or the Business Operations team)
+   contacts you directly** to finalize details and launch your custom payment link. Watch your inbox.
 
 Two things to plan for:
 
@@ -119,8 +148,11 @@ This also applies to **co-sponsorship money** collected toward an SU-allocated p
 ## Checking your balance
 
 - Balances for all accounts are updated **every weekday (Mon–Fri)** in the **Daily Report** — Excel files
-  attached to the account-balance cards on the BEARings board.
+  attached to the account-balance cards on the BEARings board. The current file is dated
+  (`Operating_MM.DD.YY.xlsx`); the `FY__` files alongside it are prior-year history.
 - Check it **before** submitting any spending request or planning a large purchase.
+- A **Daily Report Excel Training Guide** PDF is now attached to all three account-balance cards if you'd
+  rather learn the spreadsheet by hand.
 
 Fastest way to read it:
 
@@ -140,6 +172,11 @@ source project, so filter to your own `PJ…` number or the totals cancel out. S
 
 ## If a group disbands
 
-Leftover **Fundraising** (and Gift) money stays on campus: it transfers to a general Office of Student
-Success account, and the Vice Chancellor for Student Success reallocates it to other student programs,
-campus events, and active clubs.
+Leftover **Fundraising** money stays on campus: it transfers to a general **Division of Student Success**
+account, and the **Vice Chancellor for Student Success** reallocates it to other student programs, campus
+events, and active clubs.
+
+> ⚠️ **Ambiguous on the board.** This paragraph appears on **both** the Fundraising and the Gift
+> account-balance cards, but on the Gift card it still reads "any leftover money in their **Fundraising**
+> account" — it looks like copy-paste, and the board never states what happens to a leftover **Gift**
+> balance. Don't assume Gift is treated the same way; confirm with finance@su.wustl.edu if it's material.

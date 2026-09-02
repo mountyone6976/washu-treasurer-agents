@@ -23,38 +23,66 @@ any machine, including a phone session.
 [`tools/su_board.py`](../tools/su_board.py) wraps all of this. Standard library only — no `pip install`.
 
 ```bash
-python tools/su_board.py sync                          # refresh cached board JSON
-python tools/su_board.py lists                          # open lists + card counts
-python tools/su_board.py cards --list POLICIES          # cards in a list
-python tools/su_board.py card "Rolling Appeals"         # full text + checklists + attachments
-python tools/su_board.py search "re-appeal"             # search names and descriptions
-python tools/su_board.py files --ext xlsx               # downloadable spreadsheets
-python tools/su_board.py get FY27_Project               # download an attachment
-python tools/su_board.py report operating --group "Your Group" # latest daily report, one group, totalled
-python tools/su_board.py xlsx path.xlsx --grep "Your Group"    # dump any local xlsx as TSV
+python tools/su_board.py sync                                       # refresh cached board JSON
+python tools/su_board.py lists                                      # open lists + card counts
+python tools/su_board.py cards --list POLICIES                      # cards in a list
+python tools/su_board.py card "Rolling Appeals"                     # full text + checklists + attachments
+python tools/su_board.py search "re-appeal"                         # search names and descriptions
+python tools/su_board.py files --ext xlsx                           # downloadable spreadsheets
+python tools/su_board.py get FY27_Project                           # download an attachment
+python tools/su_board.py report operating --group "<YourGroupName>" # latest daily report, one group, totalled
+python tools/su_board.py xlsx path.xlsx --grep "<YourGroupName>"    # dump any local xlsx as TSV
 ```
 
 `report` is the high-value one: it finds the newest dated report attachment, downloads it, filters to your
 group, and totals by event.
 
-## Four traps that produce confidently wrong answers
+## What's actually on the board
 
-**1. Archived lists.** Only **10 of ~50 lists are open.** The rest are archived and hold prior-year
-content — old announcements dated 2022–23, and **a leadership list naming entirely different people** than
-the current one. Scraping everything and treating it as current will give you the wrong VP of Finance.
-`su_board.py` hides archived lists unless you pass `--all`. Don't pass `--all` for policy questions.
+Eleven open lists, 69 cards, 99 attachments, 47 checklists (counted 2026-09-04):
 
-**2. Checklists carry the real process.** Card **descriptions** are often a one-line summary; the
+| List | Cards | What's in it |
+|---|---|---|
+| PACKAGES | 1 | Package-arrival tracker link |
+| HEADS UP | 4 | Compliance training, Out of Compliance List, performance-space notice |
+| WELCOME TREASURERS | 8 | Important Financial Dates, contacts, project #s, Student Group Handbook |
+| FORMS | 4 | **FTF is the first card here**, plus Cashnet, feedback, travel incident |
+| COMMONLY USED ITEMS | 9 | Workday reimbursement walkthroughs, sample receipt, invoice template |
+| SU FINANCE: Allocations & Communication | 6 | Funding principles, rolling appeals, annual budgeting, FY27 general budget |
+| POLICIES: SU Financial Policies & Rules | 6 | Financial policies, restrictions, the BAM, reallocations, flat funding, COI |
+| STUDENT GROUP ORGANIZATION: Process | 7 | Recognition, category/name change, deregistration, Cat I/II/III |
+| OPERATING ACCOUNT : SPENDING | 8 | Balances, rules, processes, reimbursements — all Operating-specific |
+| FUNDRAISING ACCOUNT : SPENDING | 8 | Same eight-card shape, Fundraising-specific |
+| GIFT ACCOUNT : SPENDING | 8 | Same eight-card shape, Gift-specific |
+
+The three account lists repeat the same eight-card structure, so a rule you find on one is worth checking
+against the other two — they differ in the details that matter.
+
+## Five traps that produce confidently wrong answers
+
+**1. Archived lists.** Only **11 of 50 lists are open** (39 archived; counted 2026-09-04). The rest hold
+prior-year content — old announcements dated 2022–23, and **a leadership list naming entirely different
+people** than the current one. Scraping everything and treating it as current will give you the wrong VP of
+Finance. `su_board.py` hides archived lists unless you pass `--all`. Don't pass `--all` for policy questions.
+
+**2. `closed` on the card is not enough — filter by list.** Archiving a *list* does not set `closed` on the
+cards inside it. As of 2026-09-04 the board has **142 cards with `closed: false`, but only 69 of them sit in
+an open list** — the other 73 are current-looking cards stranded in archived lists. Filter on
+`card.idList ∈ open lists`, not on `card.closed`, or you will pull in double the content and read
+2022–23 policy as current. `su_board.py` already does this correctly; hand-rolled fetches and the
+mobile fallback below are where this bites.
+
+**3. Checklists carry the real process.** Card **descriptions** are often a one-line summary; the
 operative detail lives in **checklists**. The Rolling Appeals card's description is one sentence, while its
 checklist contains the WUGO submission path, the 3-week/4-week deadlines, and the turnaround times. Any
 tool that reads only `desc` — including the official Trello **export PDF/docx** — silently misses most of
 the policy. Always read checklists.
 
-**3. The daily report is double-entry.** Every award appears **twice**: once as a negative (money into your
+**4. The daily report is double-entry.** Every award appears **twice**: once as a negative (money into your
 project) and once as a positive against `PJ000025472 Student Union Budgets/Appeals` (the source). Filter to
 your own `PJ…` project number or the totals cancel to zero. `su_board.py report` already does this.
 
-**4. Sign convention is inverted.** In the daily reports, **negative = money INTO your account**, positive =
+**5. Sign convention is inverted.** In the daily reports, **negative = money INTO your account**, positive =
 expense/deduction. The sheet says so in row 1. Getting this backwards flips every balance.
 
 ## Reading the daily reports

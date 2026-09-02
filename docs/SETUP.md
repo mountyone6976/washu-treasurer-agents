@@ -14,7 +14,7 @@ git clone https://github.com/<your-username>/washu-treasurer-agents-template.git
 cp -r orgs/_template orgs/<your-org-slug>
 ```
 
-Short lowercase slug — `aiche`, `wubs`, `msa`.
+Short lowercase slug — `aiche`, `wubs`.
 
 ## 3. Point the repo at your org
 
@@ -50,8 +50,8 @@ purchases and unapproved reimbursements don't appear on the report, so it overst
 
 `reference/` is compiled from the official SU materials, but two things go stale:
 
-- **`financial-policies.md` holds FY26 caps.** New policies drop in the **second week of the fall semester**.
-  Update that file when they do.
+- **`financial-policies.md` holds FY27 caps** (verified against the board 2026-09-04). New policies drop in
+  the **second week of the fall semester** — update that file when the next fiscal year's land.
 - **Names in `contacts-su.md`** turn over annually. The role addresses (`finance@`, `treasury@`, `budget@`,
   `activities@`) don't.
 

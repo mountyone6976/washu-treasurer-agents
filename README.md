@@ -12,7 +12,7 @@ what SU actually requires rather than generic finance advice.
 ## Three layers, so it's shareable
 
 ```
-.claude/agents/     CORE. Eight generic treasurer agents. Org-agnostic — no group names, figures, or
+.claude/agents/     CORE. Nine generic treasurer agents. Org-agnostic — no group names, figures, or
                     contacts baked in. This is what other treasurers reuse untouched.
 reference/          SHARED. How WashU SU finance works: caps, deadlines, forms, routing, restrictions.
                     Applies to every org. Fixes here help everyone.
@@ -43,7 +43,7 @@ The SU Finance BEARings Trello board is **public** — no login, no API key. [`t
 reads it with the standard library alone, so it works anywhere including a phone session:
 
 ```bash
-python tools/su_board.py report operating --group "Your Group"
+python tools/su_board.py report operating --group "<YourGroupName>"
 ```
 
 That finds the newest daily report, downloads it, filters to your group, and totals by event. Also
@@ -80,9 +80,11 @@ deadline moved) — then fix it and contribute it back, since every org reads th
 
 ## Caveats worth reading
 
-- **`reference/financial-policies.md` holds the FY26 caps.** FY27 policies are released once Treasury
-  approves them, in the **second week of the fall semester**. Update that file then; until then treat the
-  numbers as guidance and confirm anything material with finance@su.wustl.edu.
+- **`reference/financial-policies.md` holds the FY27 caps** (verified 2026-09-04 — FY27 policies are now
+  published). Two live FY27 sources disagree, though: the Treasury-approved **Financial Policies** card
+  governs appeals this year, while the **FY27 BAM** is what the spring 2026 budget round was allocated
+  against. Where a number is material, confirm which document applies — finance@su.wustl.edu for policy and
+  appeals, budget@su.wustl.edu for the annual budget.
 - **The BEARings Trello board is the authoritative policy manual**, and it changes during the year. This repo
   is a compiled snapshot for speed. When it matters, check the board.
 - **These agents draft and organize. They do not submit forms, send email, or move money.** You review and

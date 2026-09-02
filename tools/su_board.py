@@ -357,7 +357,7 @@ def main():
     c = sub.add_parser("get");    c.add_argument("text"); c.add_argument("--out")
     c = sub.add_parser("report")
     c.add_argument("account", choices=["operating", "fundraising", "gift"])
-    c.add_argument("--group", required=True, help="group name substring, e.g. 'Muslim'")
+    c.add_argument("--group", required=True, help="group name substring, e.g. '<YourGroupName>'")
     c.add_argument("--out"); c.add_argument("--refresh", action="store_true")
     c = sub.add_parser("xlsx");   c.add_argument("file"); c.add_argument("--grep")
 

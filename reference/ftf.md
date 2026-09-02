@@ -9,6 +9,32 @@ Finance BEARings Trello board.
 The form uses **conditional logic**: your answers on each page determine which pages you see next. So the
 field lists below are per transaction type, not all at once.
 
+## Two form links are in circulation — pick by transaction type
+
+Verified across every open card and checklist on 2026-09-04:
+
+| Link | Where the board uses it | Use for |
+|---|---|---|
+| [`forms.gle/gdFf8bBmXWKJ8nmd6`](https://forms.gle/gdFf8bBmXWKJ8nmd6) | The **Financial Transaction Form** card (the canonical one), the **Reallocations** card, and the deposit/Cashnet checklists | Card purchases, reallocations, fundraising requests, deposits, canceled-event retrieval |
+| [`forms.gle/PqKykXFXBh15Skrw7`](https://forms.gle/PqKykXFXBh15Skrw7) | The **"Non-Credit Card Payments (Electronic Payment/Check)"** checklist on the *Spending from your Operating / Fundraising / Gift Account* cards — all three, consistently | **Supplier payments** by check or ACH |
+
+> The FORMS card presents the first link as the single FTF covering all six transaction types, but the
+> current spending cards consistently route **supplier/invoice payments** to the second one. Both are live.
+> If you're filing a supplier payment, ask your Business Coordinator which to use rather than guessing —
+> a form filed in the wrong place is a lost week.
+
+> ⚠️ **The live form is SSO-gated.** An unauthenticated fetch returns a Google sign-in wall, so the field
+> lists below **cannot be verified programmatically** — they were captured by a treasurer working through
+> the real form. If you hit a field that isn't documented here, add it.
+
+## Timing — file before you shop
+
+- **Card purchases: submit the FTF at least one day before you buy. Same-day card purchases are not
+  allowed.**
+- You do **not** need to wait for a Business Coordinator's approval email before coming to the office.
+- **Supplier payments:** file within **7 days** of whichever comes *first* — service completed, items
+  received, or the invoice landing in your inbox. No approval email needed here either.
+
 ## The six transaction types
 
 | Type | Use for |
@@ -16,7 +42,7 @@ field lists below are per transaction type, not all at once.
 | **Non-travel WashU credit card** | Goods/services bought online, by phone in the SU office, or locally with a checked-out physical card |
 | **Travel WashU credit card** | Airfare, ground transportation, lodging, registration |
 | **Non-credit-card payment (electronic payment / check)** | Supplier/vendor invoices where the vendor can't take a card |
-| **Fundraising request** | Ticket sales, dues, subsidizing a purchase, restaurant fundraisers, selling food/services, merch, concessions |
+| **Fundraising request** | Ticket sales, dues, subsidizing a purchase, restaurant fundraisers, selling food/services, merch, sponsorships, co-sponsorships, event fees. (*"Concessions"* appears **0 times** on the live board — treat it as unverified) |
 | **Reallocation request** | Using already-allocated funds for a different purpose or item |
 | **Canceled event retrieval** | Telling staff you're canceling so unneeded funds can be retrieved and reused for appeals |
 
@@ -44,21 +70,24 @@ field lists below are per transaction type, not all at once.
 
 ### Non-travel purchase
 
-**Event information**
-- Location of event
-- Date of event
-- If **fewer than 13 people** will attend, **names of attendees must be listed**
+Exact fields, in order, as they appear on the live Google Form (confirmed 2026-09-04):
 
-**Purchase information**
-- Is this an overhead purchase?
-- What are you purchasing, and what is the intended use of the items?
-- Which account covers this expense — **Operating funds (budget) / Fundraising / Gift**?
-- What is the **budget name** the expense will be pulled from?
-- List the **stores** for each purchase
-- Are you using **flat funding**?
+1. **Is this an overhead purchase?** *(required)*
+2. **Location of the Event** *(required)*
+3. **Date of the Event** *(required, date picker)*
+4. **Which account will be used to cover this expense?** *(required — Operating / Fundraising / Gift)*
+5. **What items are you purchasing** *(required)*
+6. **What is the intended use of the items? How does this item tie into your event, be specific.**
+   *(required)*
+7. **List the Stores for Each Purchase** *(required)*
+8. **Please upload any additional attachments that will facilitate this purchase** *(optional — up to 10
+   files, max 10 GB per file)*
 
-**Documents**
-- Any additional attachments that will facilitate the purchase
+> The live form does **not** currently ask for a budget name, whether you're using flat funding, or
+> attendee names for events under 13 people — despite those being listed here previously. Know your budget
+> name and line item anyway (per the standing checklist below); staff evidently derive it from the account
+> selection and event/purchase description rather than a dedicated field. Flag it with your Business
+> Coordinator if a purchase's funding source is ambiguous (e.g. flat-funding top-ups).
 
 ---
 
@@ -141,22 +170,19 @@ field lists below are per transaction type, not all at once.
 
 ### Reallocation
 
-**Budget information**
-- Budget name you are allocating **FROM**
-- Line item under the budget name you are reallocating **FROM**
-- Budget name you are allocating **TO**
-- Line item under the budget name you are reallocating **TO**
-- If you did **not** receive an allocation for the event or line item you're reallocating **to**: the **new
-  event or new line item**, along with its name
+Exact fields, in order, as they appear on the live Google Form (confirmed 2026-09-04):
 
-**Amount information**
-- Requested amount to be reallocated
-- **Reason** for the reallocation — why are these funds going unspent, and why are you attempting to use
-  them this way?
-- **How did you arrive at the above amount?** Provide itemization where necessary
-
-**Documents**
-- Any documentation confirming your amount (invoice, budget screenshot, etc.)
+1. **Event Name (Allocate FROM)** *(required)*
+2. **Line Item Name (Allocate FROM)** *(required)*
+3. **Event Name (Allocate TO)** *(required)*
+4. **Line Item Name (Allocate TO)** *(optional, free text — if the line doesn't exist yet under that event,
+   type the new line's name here; there's no separate "new line item" field on the live form)*
+5. **Requested Amount To Be Reallocated** *(required)*
+6. **Reason for the reallocation. Why are these funds going unspent, and why are you attempting to use
+   them in this way?** *(required)*
+7. **How did you arrive at the above amount? Please provide itemization where necessary** *(required)*
+8. **Please upload any documentation to confirm your amount** (ex. screenshot of hotel listing, invoice,
+   etc.) *(optional — up to 5 files, max 10 GB per file)*
 
 > **Minor** reallocations (between lines of the *same* event) are handled by Business Operations staff at
 > spending time. **Anything else** — notably between *different* events — goes through this form and is

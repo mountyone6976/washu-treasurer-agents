@@ -37,19 +37,28 @@ Confirm the total before choosing, and say which threshold applies in your hando
 
 For travel, the caps depend on how far ahead the appeal is filed:
 
+> These figures are a **convenience copy of FY27 policy** (verified 2026-09-04).
+> `reference/financial-policies.md` and `reference/travel.md` are canonical — read them at run time and use
+> their numbers if they differ. Caps change annually, and a confidently wrong cap costs the group real money.
+
 | Item | < 4 weeks out | **4+ weeks out** |
 |---|---|---|
-| Hotels | $150/room/night | **$200** |
+| Hotels | $150/room/night | **$300** |
 | Flights | $300/round trip | **$400** |
-| Sedans / SUVs / Vans | $60 / $70 / $80 per day | **$70 / $80 / $90** |
+| Sedans / SUVs / Vans | $65 / $75 / $85 per day | **$75 / $85 / $95** |
 
 **Compute the actual date 4 weeks before the event.** If they're close to that line, say explicitly what
-filing earlier is worth in dollars — this is the highest-leverage advice you can give. If they're already
-inside 4 weeks, build the request to the lower caps rather than to numbers that will be cut.
+filing earlier is worth in dollars — this is the highest-leverage advice you can give. The hotel cap
+**doubles** at four weeks. If they're already inside 4 weeks, build the request to the lower caps rather
+than to numbers that will be cut.
 
-Also check: no driving 500+ miles; 500+ mile eligibility in spring depends on whether the group travelled
-500+ miles in the fall; travel conference attendees capped at 4; $3,000 annual travel spend cap;
-$682/active travelling member.
+Also check: no driving 500+ miles; **$3,500** annual conference travel cap with **no attendee limit**;
+**$712**/active travelling member. A **hotel-cap exception** may be granted if the venue is required by the
+event host — ask rather than absorbing the overage.
+
+> **Two FY27 sources disagree** on travel numbers (the Financial Policies card vs. the FY27 BAM). See the
+> conflict callout in [reference/travel.md](../../reference/travel.md) before quoting a figure for a line
+> that was already allocated in the spring budget.
 
 ## Write it the way Treasury judges it
 
@@ -72,8 +81,10 @@ figure sitting under the limit. Vague totals invite cuts.
 **Seeking a venue-cap exception** (cultural, religious, or safety reasons)? Say so explicitly and give the
 reason — these are granted case by case, and a group that gets one moves to the **next tier** cap.
 
-**Speaker over $10,000?** The **≥5-day interest survey** is a precondition, not a formality. If it hasn't
-run, that's the first action item, and the appeal waits.
+**Speaker honoraria are capped at $10,000 per group per year** (FY27). Above that, the group should contact
+the **Social Programming Board** about the **Supplementary Speaker Fund** *before* submitting the appeal.
+The FY26 **≥5-day interest survey** and the one-speaker-over-$10,000 limit are **no longer in policy** —
+don't require either.
 
 ## Deliverable
 

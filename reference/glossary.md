@@ -15,7 +15,7 @@
 | **AC / ACT** | Activities Committee / Activities Committee Team |
 | **VPF** | Vice President of Finance |
 | **P&T** | Presidents & Treasurers (as in "P&T emails") |
-| **SAF** | **Student Activities Fee** — also the per-member travel cap figure ($682 in FY26) |
+| **SAF** | **Student Activities Fee** — **$712 in FY27**. Both flat funding and the per-member travel cap are pegged to it. (The FY27 BAM still calls the SAF $682; see financial-policies.md) |
 | **DUC** | **Danforth University Center** — Campus Life Suite 270 is the SU office |
 | **GBM** | General Body Meeting — **not funded via appeals**; use flat funding |
 | **HMC** | Harvey Media Center (equipment rental) |
@@ -42,7 +42,7 @@
 | **Operating account** | Holds SU money (budget allocations, flat funding, appeals). **Use-it-or-lose-it**, resets at FY end |
 | **Fundraising account** | Money you raise. **Carries over** |
 | **Gift account** | Donations via Advancement. **Carries over** |
-| **Flat funding** | Flexible annual allocation, $15/active member, Cat I & II. Usable for socials, GBMs, info sessions |
+| **Flat funding** | Flexible annual allocation: **$712 per group** (FY27, = the SAF), Cat I & II. Usable for socials, GBMs, info sessions, and topping up an under-funded event. The old `$15/active member` formula survives only on the stale Category I/II cards |
 | **Budget allocation** | Annual spring award for 3 largest events + overhead. Cat I only |
 | **Overhead** | Non-event operating costs; overhead allocations last all year |
 | **Rolling appeal** | Mid-year funding request for something not in your budget. Cat I only |
@@ -56,9 +56,16 @@
 | **Restrictions on Accounts** | The list of what may not be purchased. Two tiers: items barred from **operating** funds, and items barred from **any** funding |
 | **Spending blackout period** | Windows near semester end when spending is halted |
 | **Premiere spaces** | Event Management's higher-tier venues. **IT and AV charges are not covered by SU** |
-| **Interest survey** | Required (≥5 days open) for speakers with honoraria over $10,000 |
-| **Travel conference** | Event category "Travel (50–500 miles)" or "Travel (500+ miles)" — max 4 attendees |
-| **Local conference** | Event category "Local Off-Campus" — no attendee restriction |
+| **Interest survey** | ~~Required (≥5 days open) for speakers over $10,000.~~ **Withdrawn in FY27** — not on the current board. Don't require it |
+| **Supplementary Speaker Fund** | Extra pot for honoraria above the **$10,000**/group/year cap. Contact the **Social Programming Board** *before* appealing |
+| **Attendance tracking** | Mandatory (FY27) for allocations >$10,000, speaker events >$1,000, and all travel except local off-campus. Via **SA Tools** or reported ticket sales |
+| **Placeholder Policy** | Budget-cycle rule (BAM) applying heightened scrutiny to placeholder line items. Doesn't apply to events before Oct 1, or from end of winter break to Feb 14 |
+| **Block Funded group** | Group with guaranteed direct SU funding that skips Treasury budget allocation. Petitions filed annually in spring |
+| **SU Entity** | SU-run body rather than a recognized group (Environmental Council, LIVE, School Councils, Social Programming Board, SU Public Relations) |
+| **One-Time Lifeline** | The group's **single** Business Manager exception per academic year — covers a late expense report *or* reviving a canceled "Sent Back" one. Track it in `orgs/<slug>/org.md` |
+| **"Sent Back"** | Workday status for a returned expense report. Resubmit immediately — past the monthly cutoff the system **cancels it permanently** |
+| **Expenses Hub** | The Workday dashboard for creating expense reports and tracking their status |
+| **Deactivation** | Losing active status by missing spring re-registration — distinct from deregistration. A Cat I group that lapses reverts to entry-level Cat III |
 | **Category I / II / III** | Funding tiers. See categories.md |
 | **Good standing** | Campus Life compliance status; affects whether events get approved |
 
@@ -79,6 +86,6 @@
 
 | Place | What |
 |---|---|
-| **DUC 270** | Campus Life Suite — SU office, credit card hours, **package pickup** |
-| **875 Kingsland** | **Shipping address for all WashU credit card purchases** |
+| **DUC 270** | Campus Life Suite — SU office, credit card hours, **package pickup at the reception desk** |
+| ~~875 Kingsland~~ | **Removed — unsourced.** "Kingsland" appears **0 times** in the entire board JSON (checked 2026-09-04). Card purchases are placed *in the office* from SU's own Amazon/Target/Walmart business accounts, so the shipping address is theirs, not something you set. Ask your Business Coordinator; don't cite this address |
 | **Millbrook Garage / Academy Building** | SU long-term storage |

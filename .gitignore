@@ -23,6 +23,10 @@ orgs/**/*.zip
 # Cached Trello board JSON and downloaded attachments (re-fetchable; see tools/su_board.py)
 tools/.cache/
 
+# Python bytecode from running tools/su_board.py
+__pycache__/
+*.pyc
+
 # OS / editor noise
 .DS_Store
 Thumbs.db

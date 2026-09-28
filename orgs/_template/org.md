@@ -20,6 +20,21 @@ slug. Delete the guidance lines as you replace them.
 - **Active member count:** drives flat funding at $15/member (cap $1,350, floor $150)
 - **Typical events per semester and their scale:**
 
+## Reusable WUGO appeal facts
+
+Keep these current in your private copy; leave them blank in the public template.
+
+- **Official mission statement or faithful summary:**
+- **Constitution/document link and revision date:**
+- **Active undergraduate member count:**
+- **Count source and confirmation date:**
+- **Definition of an active member and source/article:**
+- **WUGO organization page and category verification date:**
+- **Treasurer's form-filling preferences, if explicitly supplied:**
+
+Active undergraduate membership is not necessarily total roster membership. Expected attendance,
+admission charges, co-host contributions, and deadline clearance belong in each event's record.
+
 ## Accounting identifiers
 
 Needed on FTFs and Workday expense reports. Not secret — but see the warning below.

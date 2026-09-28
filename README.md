@@ -37,6 +37,15 @@ the core.
 | [communications-agent](.claude/agents/communications-agent.md) | Drafting email and routing it to the right person out of ~8 possibilities |
 | [board-agent](.claude/agents/board-agent.md) | Reading the **live** BEARings Trello board and pulling the daily balance spreadsheets |
 
+## Filling and submitting an appeal
+
+Start with the [WUGO field guide](reference/wugo-appeal-form.md) and
+[blank appeal record](orgs/_template/appeals/appeal-record.md). They cover the observed required questions,
+conditional funding and expense sections, efficient intake, reliable date entry, and submission verification.
+The workflow reuses confirmed org facts, asks for missing facts together, and supports explicit requests to
+submit when browser tools are available. Group and event data stay in the private `orgs/<slug>/` directory;
+the public template contains only generic guidance and blank records.
+
 ## Live board access
 
 The SU Finance BEARings Trello board is **public** — no login, no API key. [`tools/su_board.py`](tools/su_board.py)
@@ -87,7 +96,8 @@ deadline moved) — then fix it and contribute it back, since every org reads th
   appeals, budget@su.wustl.edu for the annual budget.
 - **The BEARings Trello board is the authoritative policy manual**, and it changes during the year. This repo
   is a compiled snapshot for speed. When it matters, check the board.
-- **These agents draft and organize. They do not submit forms, send email, or move money.** You review and
-  file everything yourself.
+- **Drafting is the default.** An explicit request to submit a specific appeal authorizes its submission
+  when browser tools are available; the assistant must verify the result. Filing an appeal does not
+  authorize spending, signing contracts, or sending separate messages.
 - Source PDFs, slide decks, receipts, and statements are gitignored under `orgs/` on purpose — extract facts,
   don't commit documents.

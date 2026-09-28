@@ -25,6 +25,14 @@ ahead, and it determines when your funds need to be available.
 Financial Policies card for this reason. Check every line against
 [financial-policies.md](financial-policies.md) before you submit.
 
+## Filling the actual form
+
+Use [wugo-appeal-form.md](wugo-appeal-form.md) for the observed required fields, conditional sections,
+browser workflow, and verification. Start the private record from
+[appeal-record.md](../orgs/_template/appeals/appeal-record.md). Reuse current org facts and ask only for
+missing request-specific facts in one batch. A saved draft and a submitted request are different states;
+neither means funding approval.
+
 ## Routing, deadlines, and turnaround — by dollar amount
 
 | | **Under $1,000** | **$1,000 or more** |

@@ -8,7 +8,7 @@ weighs — and re-appeal eligibility depends on knowing exactly how something wa
 Each file should record:
 
 - **Amount requested**, budget line, and **date filed**
-- **Which threshold** it went to — VP of Finance (under $1K) or Speaker of the Treasury (over $1K)
+- **Which threshold** it went to — VP of Finance (under $1K) or Speaker of the Treasury ($1K or more)
 - **How many days before the event** it was filed (the 4-week line changes travel caps materially)
 - The justification as submitted
 - Evidence attached
@@ -20,3 +20,11 @@ Each file should record:
 A rolling appeal **cannot** supplement funding from a previous **appeal**. It **can** supplement an event that
 was last funded in the **annual budget**. So record which one applied, or next year's treasurer won't know
 whether a re-appeal is even possible.
+
+## Form intake and submission record
+
+Copy [appeal-record.md](appeal-record.md) into the active org's appeals directory before filling the form.
+Use [the field guide](../../../reference/wugo-appeal-form.md) to avoid repeated questions and unnecessary
+conditional sections. Record draft/submitted/decision status separately, including response URL,
+submission time, actual verification evidence, and final answers. Keep live response URLs and event
+details in the private org copy only; the public starter stays blank.

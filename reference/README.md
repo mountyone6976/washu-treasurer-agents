@@ -32,6 +32,7 @@ Compiled from official WashU Student Union materials:
 | [accounts.md](accounts.md) | Operating vs. Fundraising vs. Gift accounts; lifespans and rollover |
 | [funding-sources.md](funding-sources.md) | Budget allocation, flat funding, appeals — where money comes from |
 | [annual-budget.md](annual-budget.md) | The spring annual budgeting cycle (BAM, BAT, WUGO submission) |
+| [wugo-appeal-form.md](wugo-appeal-form.md) | Observed appeal fields, conditional questions, intake, browser entry, and verified submission |
 | [appeals.md](appeals.md) | Rolling appeals: WUGO submission, the $1K split, 3/4-week deadlines, turnaround |
 | [financial-policies.md](financial-policies.md) | FY27 caps: socials, honoraria, travel, retreats, conferences, revenue, etc. |
 | [restrictions.md](restrictions.md) | Funding principles and what SU will not pay for |

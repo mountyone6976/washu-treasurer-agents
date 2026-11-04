@@ -123,13 +123,12 @@ student group gets only ONE approved exception warning per academic year**. The 
 Reference Guide is explicit that the single exception covers **both** late submissions **and** reviving a
 canceled "Sent Back" report — it is one lifeline, not one of each.
 
-Track whether yours has been used — record it in `orgs/<slug>/org.md`, because a successor treasurer
-otherwise has no way to know it's already spent.
+Track the offer or request, approval, and use separately in `orgs/<slug>/org.md`. Record which report the exception covers. A filing exception does not change the funding or receipt requirements.
 
 ### 📥 "Sent Back" reports expire
 
 If your Business Coordinator returns a report in Workday (usually for a receipt problem), it's marked
-**Sent Back**. **Review and resubmit immediately.**
+**Sent Back**. Open the existing report from **My Tasks**, read the reviewer comments, and correct and resubmit it by the coordinator's stated deadline. If the coordinator combined reports, verify the surviving report ID, receipt lines, and original statuses in Workday before editing. Keep each purchase on its existing funding allocation in the ledger and avoid counting the consolidated claim twice.
 
 > Any report left in "Sent Back" status past the deadlines on the **Important Financial Dates** card is
 > **automatically canceled by the system and is no longer eligible for reimbursement.**
@@ -209,9 +208,11 @@ for Yourself (as a worker)"**. In Workday, search **Create Expense Report**.
 | **Quantity / Per Unit / Total Amount** | The total must **match the receipt total** |
 | **Memo** (line) | The **Line Item** from your budget line on the Daily Report, then `" - "` and a description of what was purchased. Using Fundraising or Gift funds? Use the **WUGO event name** in place of the Line Item |
 | **Attendee(s) / Number of Persons** | Event-related purchase? Enter the **approximate number of people who attended**. **If fewer than 13 attended, every attendee must be named** |
-| **Attachments** | The receipt — **and your approved WUGO event form** |
+| **Attachments** | The itemized receipt and proof of payment. For event expenses, attach the **approved WUGO event form**. The public event listing does not show formal approval. |
 | **Comment** | The **business purpose**: how the purchase serves the event or the group. Accounting needs that context to approve |
 | **Receipt Included** | Checked |
+
+For built-in itemizations, use the receipt quantities and unit prices. Include taxes, discounts, and shipping once. Verify zero remaining to itemize, check the project, worktags, and attendance on the child entries where Workday stores them, then reopen the saved report to confirm the values persisted. After submitting, check the live report status and approval routing.
 
 **Report-level limits:**
 
@@ -315,10 +316,7 @@ neither is a monthly statement or canceled check on its own — those routinely 
 **Paid cash?** If the receipt doesn't say so, write **"paid cash"** in the description field of the request
 so the proof-of-payment requirement is met.
 
-**If you must include a credit card statement:** it does **not** replace a receipt — use it only *in
-addition* to a receipt, to show proof of payment the receipt itself doesn't carry. **Black out sensitive
-information first** — the account number and the full card number. Same for a copy of a check. (This is
-also repo policy: see the no-sensitive-data rule in `CLAUDE.md`.)
+**If the itemized receipt lacks payment proof**, ask the vendor for a receipt showing the payment method. If your coordinator accepts a bank or card statement entry as supplemental proof, attach it alongside the itemized receipt. Keep the merchant, date, and settled amount visible and redact account or card numbers and unrelated transactions. If a reviewer cites a different amount, check it against the Workday line, receipt, and actual charge before changing the claim. Keep receipts and statements out of GitHub.
 
 **Best practice:** photograph the physical receipt or download the official PDF invoice **immediately**
 after purchase. Reconstructing one later is how the 7-day window gets missed.
